@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Feedly Seaech
+// @name        Feedly Search
 // @namespace   http://nodaguti.usamimi.info/
 // @description Add search box on Feedly
 // @include     http://feedly.com/*
@@ -9,6 +9,7 @@
 // @license     MIT License
 // @grant       GM_log
 // @grant       GM_addStyle
+// @grant       unsafeWindow
 // ==/UserScript==
 
 (function(window, document){
